@@ -50,7 +50,7 @@ class App extends Component {
 				<div className="App-sidebar">
 					<div className="App-sidebar-content">
 						<Section>
-							<img src={dp} className="App-dp" title="This is me." alt="👻" />
+							<img src={dp} className="App-dp" alt="This is me." title="Hi, there." />
 						</Section>
 						<Section>
 							<div className="App-info">
@@ -64,7 +64,7 @@ class App extends Component {
 							{langs}
 						</Section>
 						<Section name="HOBBIES">
-							<img src="" alt="👑" title="Graffiti, Gaming, Pool, Soccer, Art & Craft, Traveling, Poetry, Cooking, Photography" />
+							<img src="" title="Hobbies" alt="Graffiti, Gaming, Pool, Soccer, Art & Craft, Traveling, Poetry, Cooking, Photography" />
 						</Section>
 						<Section name="WHY ME?">
 							<div className="App-blah">
@@ -77,7 +77,7 @@ class App extends Component {
 						<Section name="COMPETENCE">
 							<div className="App-competence">
 								<div className="App-chart">
-									<img src={piechart} alt="🌓" title="Programming, Designing, Database, Testing" />
+									<img src={piechart} title="Everything at once." alt="Programming, Designing, Database, Testing" />
 								</div>
 								<div className="App-legends">
 									<div className="App-legend"><div className="App-marker green"></div><div className="App-legname">Programming</div></div>
