@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+   <g transform="translate(100,100)" stroke="white" stroke-width="3">
+    <path d="M0 0-0-99A99 99 0 0 1 99 0 A99 99 0 0 1 0 99 A99 99 0 0 1 0 -99Z" fill="#00B050"/>
+    <path d="M0 0-70 70A99 99 0 0 1-70-70Z" fill="#ED7D31"/>
+    <path d="M0 0-80 -59A99 99 0 0 1-30-94Z" fill="#A5A5A5"/>
+    <path d="M0 0-30 -94A99 99 0 0 1-0-99Z" fill="#fcbe2d"/>
+  </g>
+  <circle cx="100" cy="100" r="50" fill="#255F93" stroke="white" stroke-width="3"/>
+</svg>

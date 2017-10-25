@@ -1,0 +1,9 @@
+.Imglabel{
+	padding-top: 10px;
+}
+
+.Imglabel-img{
+	padding: 0 7px;
+	width: 15px;
+	text-align: center;
+}

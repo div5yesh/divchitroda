@@ -1,0 +1,136 @@
+{
+	"skills": [
+		{ "name": "Communication", "value": 80 },
+		{ "name": "Creativity", "value": 95 },
+		{ "name": "Management", "value": 65 },
+		{ "name": "Teamwork", "value": 75 }
+	],
+	"langs": [
+		{ "name": "English", "value": 85 },
+		{ "name": "Spanish", "value": 30 },
+		{ "name": "Hindi", "value": 75 },
+		{ "name": "Gujarati", "value": 60 }
+	],
+	"info": [
+		{ "img": "birthday-cake", "label": "June, 1992" },
+		{ "img": "envelope-o", "label": "Div5yesh@gmail.com" },
+		{ "img": "phone", "label": "+91 773-803-2387" },
+		{ "img": "map-marker", "label": "Mumbai, India" },
+		{ "img": "globe", "label": "Divchitroda.com" }
+	],
+	"exp": [
+		{
+			"period": 6,
+			"unit": "M",
+			"details": {
+				"title": "Software Development Engineer",
+				"company": "Play Games24x7 Pvt. Ltd.",
+				"roles": [
+					"Cross Platform Game Development",
+					"Native Application Development",
+					"Multiplayer Networking"
+				]
+			}
+		},
+		{
+			"period": 5,
+			"unit": "M",
+			"details": {
+				"title": "Senior Software Engineer",
+				"company": "Zeus Learning Pvt. Ltd.",
+				"roles": [
+					"Team Management",
+					"Milestones & Deadline Estimations",
+					"Code Reviews & Mentoring",
+					"API & Tools Development",
+					"System Design & Architecture"
+				]
+			}
+		},
+		{
+			"period": 2,
+			"unit": "Y",
+			"details": {
+				"title": "Software Engineer",
+				"company": "Zeus Learning Pvt. Ltd.",
+				"roles": [
+					"Single Page Apps & Responsive Web",
+					"Object Oriented Programming",
+					"Web Testing Automation & Unit Testing",
+					"Agile Software Development",
+					"Web Accessiblity & Localization",
+					"Web Workers & Templates"
+				]
+			}
+		},
+		{
+			"period": 4,
+			"unit": "M",
+			"details": {
+				"title": "Intern - Full Stack Dev",
+				"company": "Malay InfoTech, Ahmedabad",
+				"roles": [
+					"Web Applications",
+					"Database Systems",
+					"Windows Services [WCF]",
+					"Research & Development",
+					"System Integration",
+					"System Design (HLD & LLD)"
+				]
+			}
+		}
+	],
+	"proskills": [
+		"ReactJS, Redux, NodeJS, BackboneJS",
+		"JavaScript [ES6], HTML5, CSS3",
+		"C/C++, Java, C#, ASP.net",
+		"Unity3D, Cocos2d-x",
+		"JQuery, PaperJS, Highcharts, Handlebars",
+		"WCF, SQL, Android",
+		"Webpack, Grunt, Gulp, Gradle",
+		"GIT, Redmine, TFS, JIRA",
+		"Hudson, TravisCI, Code Climate, GOCD",
+		"Selenium, Mocha/Chai, CoverallsIO",
+		"Blender, Photoshop",
+		"WebSocket, WebWorker, UNet",
+		"Responsive layouts, WYSIWYG, MS Visio"
+	],
+	"projects": [
+		{
+			"title": "2.5D 8Ball Pool – Freelancing",
+			"desc": "Multiplayer 8ball pool game in unity3d with matchmaking service and lobby."
+		},
+		{
+			"title": "Native Rummy Card Game – RummyCircle ",
+			"desc": "Cross platform multiplayer classic Indian Rummy card game with real money and tournaments."
+		},
+		{
+			"title": "REDMINE REPORTING SYSTEM",
+			"desc": "Project reporting app to track project phase and milestones, issues and builds, with data visualizations."
+		},
+		{
+			"title": "KEPLER",
+			"desc": "Microsoft office simulation-based training web application, with customized reports, tutorials and study plans."
+		},
+		{
+			"title": "DISCOVERY EDUCATION MATH TECHBOOK",
+			"desc": "Digital Textbook & interactive applications, to learn mathematics concepts."
+		},
+		{
+			"title": "MCGRAW HILL FINANCE WIDGETS",
+			"desc": "Interactive widgets to track, analyze and predict market trends, investments and risks."
+		},
+		{
+			"title": "TFS PLUGIN & WEB APP",
+			"desc": "Tracks TFS projects & items for clients by syncing TFS database with web application."
+		},
+		{
+			"title": "SNAPGEST",
+			"desc": "Cross-platform gesture recognition and user interface application. Enables user to interact with the machine using hand gestures."
+		},
+		{
+			"title": "2D ANDROID GAME ENGINE",
+			"desc": "Game Library with basic physics engine, collision system and level designer."
+		}
+	]
+}

@@ -1,0 +1,38 @@
+.Exp{
+	padding: 10px 0;
+}
+
+.Exp-period{
+	font-size: 100px;
+	color: #CC0066;
+	line-height: 75px;
+	height: 75px;
+	float: left;
+}
+
+.Exp-title, .Exp-company{
+	font-size: 16px;
+	padding: 0 0 2px 0;
+
+	display: block;
+	left: 8px;
+    position: relative;
+}
+
+.Exp-period .Exp-unit{
+	font-size: 20px;
+	color: #CC0066;
+	display: inline;
+}
+
+.Exp-details {
+	position: relative;
+	left: -15px;
+	padding-top: 15px;
+}
+
+.Exp-roles{
+	display: inline-block;
+	padding: 1px 0 0 22px;
+	color: #545454;
+}
