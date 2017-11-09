@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import piechart from './PieChart.svg';
 import dp from './img/dp.jpg';
+import hobbies from './img/hobbies.png';
 import './App.css';
 
 import cvdata from './data.json';
@@ -12,6 +13,13 @@ import Exp from './components/Exp/Exp';
 
 class App extends Component {
 	componentWillMount() {
+
+		// var data = fetch('data.json').then((response) => {
+		// 	return response.json().then((json) => {
+		// 		console.log(JSON.stringify(json));
+		// 	});
+		// });
+
 		this.setState({ cvdata });
 	}
 
@@ -50,7 +58,7 @@ class App extends Component {
 				<div className="App-sidebar">
 					<div className="App-sidebar-content">
 						<Section>
-							<img src={dp} className="App-dp" alt="This is me." title="Hi, there." />
+							<img src={dp} className="App-dp" alt="This is me. 👻" title="Hi, there." />
 						</Section>
 						<Section>
 							<div className="App-info">
@@ -64,7 +72,7 @@ class App extends Component {
 							{langs}
 						</Section>
 						<Section name="HOBBIES">
-							<img src="" title="Hobbies" alt="Graffiti, Gaming, Pool, Soccer, Art & Craft, Traveling, Poetry, Cooking, Photography" />
+							<img src={hobbies} title="Hobbies" alt="Graffiti, Gaming, Pool, Soccer, Art & Craft, Traveling, Poetry, Cooking, Photography" />
 						</Section>
 						<Section name="WHY ME?">
 							<div className="App-blah">
@@ -87,14 +95,15 @@ class App extends Component {
 								</div>
 							</div>
 						</Section>
-						<div className="App-links">
-							<a href="https://github.com/div5yesh"><div className="fa fa-github App-link"></div></a>
-							<a href="https://www.linkedin.com/in/div5yesh"><div className="fa fa-linkedin-square App-link"></div></a>
-							<a href="https://twitter.com/div5yesh"><div className="fa fa-twitter App-link"></div></a>
-							<a href="skype:div5yesh"><div className="fa fa-skype App-link"></div></a>
-							<a href="https://500px.com/div5yesh"><div className="fa fa-500px App-link"></div></a>
-							<a href="http://divchitroda.com/docs/DIVYESH%20CHITRODA%20-%20CV.pdf"><div className="fa fa-download App-link"></div></a>
-						</div>
+					</div>
+					<div className="App-links">
+						<a title="GitHub" 	href="https://github.com/div5yesh"><div className="fa fa-github App-link"></div></a>
+						<a title="Medium" 	href="https://medium.com/@div5yesh"><div className="fa fa-medium App-link"></div></a>
+						<a title="LinkedIn" href="https://www.linkedin.com/in/div5yesh"><div className="fa fa-linkedin-square App-link"></div></a>
+						<a title="Twitter" 	href="https://twitter.com/div5yesh"><div className="fa fa-twitter App-link"></div></a>
+						<a title="Skype" 	href="skype:div5yesh"><div className="fa fa-skype App-link"></div></a>
+						<a title="500px" 	href="https://500px.com/div5yesh"><div className="fa fa-500px App-link"></div></a>
+						<a title="Download PDF" href="http://divchitroda.com/docs/DIVYESH%20CHITRODA%20-%20CV.pdf"><div className="fa fa-download App-link"></div></a>
 					</div>
 					<div className="App-main">
 						<div className="App-main-content">

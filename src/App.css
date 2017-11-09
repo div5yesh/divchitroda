@@ -105,6 +105,11 @@
 	text-align: justify;
 }
 
+.Section.hobbies img{
+	width: 100%;
+    height: 100%;
+}
+
 .App-competence{
 	padding-top: 15px;
 }
@@ -152,9 +157,10 @@
 
 .App-links{
 	font-size: 18px;
-	position: absolute;
-	left: -40px;
-	top: 1740px;
+    position: absolute;
+    float: left;
+    left: 57%;
+    bottom: 0;
 }
 
 .App-links a{
@@ -173,3 +179,9 @@
 	text-align: center;
 	margin-top: 10px; 
 }
+
+@media print { 
+		#copyright {
+			display: none;
+		}
+   }
