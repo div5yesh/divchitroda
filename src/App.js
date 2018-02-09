@@ -4,6 +4,7 @@ import dp from './img/dp.jpg';
 import hobbies from './img/hobbies.png';
 import './App.css';
 
+// if(process.env.NODE_ENV == "development")
 import cvdata from './data.json';
 
 import Skillbar from './components/SkillBar/SkillBar';
@@ -14,13 +15,14 @@ import Exp from './components/Exp/Exp';
 class App extends Component {
 	componentWillMount() {
 
-		// var data = fetch('data.json').then((response) => {
-		// 	return response.json().then((json) => {
-		// 		console.log(JSON.stringify(json));
+		// fetch('data.json').then((response) => {
+		// 	return response.json().then((cvdata) => {
+		// 		this.setState({ cvdata });
 		// 	});
 		// });
 
-		this.setState({ cvdata });
+		// if (process.env.NODE_ENV == "development")
+			this.setState({ cvdata });	
 	}
 
 	render() {
